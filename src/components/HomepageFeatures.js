@@ -4,32 +4,31 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Chain will manage your business from the same place',
+    Svg: require('../../static/img/guru.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Receive all your invoices or make your declarations
+        from the palm of your hand automatically.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: '"I love doing invoices" - Said nobody, ever',
+    Svg: require('../../static/img/desconectate.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Chain manages your business from the palm
+        from your hand and automatically.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Receives invitations to the cinema, not to fulfill your obligations prosecutors',
+    Svg: require('../../static/img/conectate.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Chain is what you do, but also what we do together.
       </>
     ),
   },

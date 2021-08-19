@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Native Chain',
   tagline: 'Native Chain Documentation',
-  url: 'https://github.com/YocelinGR',
+  url: 'https://github.com/YocelinGR/native-chain-docs',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -14,9 +14,9 @@ module.exports = {
   projectName: 'native-chain-docs', 
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Chain',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Chain Logo',
         src: 'img/chain-logo.png',
       },
       items: [
@@ -26,9 +26,8 @@ module.exports = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/YocelinGR/NativeChain',
           label: 'GitHub',
           position: 'right',
         },
@@ -50,16 +49,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'How SAD makes you the SAT',
+              href: 'https://www.chain.inc/quiz'
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/chainapp/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/chain_hq/',
             },
           ],
         },
@@ -67,13 +66,13 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Help Blog',
+              href: 'https://help.chain.inc/es/',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+              href: 'https://github.com/YocelinGR/NativeChain',
+            }
           ],
         },
       ],
