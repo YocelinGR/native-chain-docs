@@ -3,53 +3,34 @@ sidebar_position: 1
 ---
 
 # Business Model
+Chain works with a subscription system. You can start with Chain with a `Free trial` of 15 year starting when you confirm your account. If you enjoy Chain, you can choose one of our options for subscription:
 
-Docusaurus can manage multiple versions of your docs.
+## Basic subscription 
+Chain will offer a basic set of functionalities that includes:
+- A single account for one user
+- Unlimited number of invoices emitted 
+- Unlimited number of new clients
+- REP invoices unlimited 
 
-## Create a docs version
+The subscription will be yearly or monthly. The initial plan has the next  bill amount:
+- $299 (MXN) per month 
+- $3588 (MXN) per year
 
-Release a version 1.0 of your project:
+## Cmapaings
+You can get Chain for a special price if you are part of the campaigns:
+- Chain club: A referred campaign for the friends, family or coworkers of the Chain team. 
+- Also you can acquire this offer if you are part of the "Qué tan SAD te pone el SAT" [campaign](../static/files/sad_report.pdf).
 
-```bash
-npm run docusaurus docs:version 1.0
-```
+The campaign includes a monthly subscription with the possibility of re-subscribe automatically every month with automating pay charges to a Credit or Debit Card. 
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+The price for this campaign is:
+- $79 (MXN)
 
-Your docs now have 2 versions:
+If you are interested in this campaign you can look at the [Chain Club program file](../static/files/Chain_Club.pdf).
 
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+## Extend trial
+If you are time-limited and you could not search for it in the Chain app, don't worry about it. Chain will extend your trial daily if you are not solving your initial pending items yet: 
+- Welcome pending item.
+- Choose a logo for your company.
+- Upload your fiscal certificates
 
-## Add a Version Dropdown
-
-To navigate seamlessly across versions, add a version dropdown.
-
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The docs version dropdown appears in your navbar:
-
-![Docs Version Dropdown](/img/tutorial/docsVersionDropdown.png)
-
-## Update an existing version
-
-It is possible to edit versioned docs in their respective folder:
-
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
