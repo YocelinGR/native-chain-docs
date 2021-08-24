@@ -16,7 +16,7 @@ The subscription will be yearly or monthly. The initial plan has the next  bill 
 - $299 (MXN) per month 
 - $3588 (MXN) per year
 
-## Cmapaings
+## Campaings
 You can get Chain for a special price if you are part of the campaigns:
 - Chain club: A referred campaign for the friends, family or coworkers of the Chain team. 
 - Also you can acquire this offer if you are part of the "Qué tan SAD te pone el SAT" [campaign](../static/files/sad_report.pdf).
@@ -34,3 +34,17 @@ If you are time-limited and you could not search for it in the Chain app, don't 
 - Choose a logo for your company.
 - Upload your fiscal certificates
 
+
+## Add-ons
+The chain will work with the add-ones that are essential for your business. You won not pay for functionalities that are not appropriate for you.
+
+For add-ones, you need to have a basic account and you will add the resources as far as you need. Some of the contemplated add-ones are:
+- Extra users:
+- Administrators
+- Accountants
+- Cashiers
+- Bank reconciliation
+- Integration with stripe or some different payment software
+- Credit notes
+- Payments with Chain card
+- Expenses 
