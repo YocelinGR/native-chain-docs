@@ -5,8 +5,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Native Chain',
   tagline: 'Native Chain Documentation',
-  url: 'https://github.com/YocelinGR/native-chain-docs',
-  baseUrl: '/',
+  url: 'https://YocelinGR.github.io',
+  baseUrl: 'https://github.com/YocelinGR/docusaurus/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
