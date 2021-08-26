@@ -6,7 +6,7 @@ module.exports = {
   title: 'Native Chain',
   tagline: 'Native Chain Documentation',
   url: 'https://YocelinGR.github.io',
-  baseUrl: 'https://github.com/YocelinGR/docusaurus/',
+  baseUrl: '/docusaurus/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
