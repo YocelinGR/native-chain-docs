@@ -9,5 +9,4 @@ The logger will include:
 - HTTP headers will protect sensitive information like passwords and  tokens
 
 ## Further improvements
-- Logger level to choose how much information you would like to watch
-- 
+- Logger level to choose how much information you would like to watch.

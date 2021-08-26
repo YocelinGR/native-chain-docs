@@ -105,4 +105,22 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html'],
+        redirects: [
+          {
+            to: '/docs/deliverables/docs',
+            from: '/docs/business-docs',
+          },
+          {
+            to: '/docs/deliverables/docs',
+            from: '/docs/app-design',
+          },
+        ],
+      },
+    ]
+  ]
 };
